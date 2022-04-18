@@ -6,7 +6,7 @@ Investing in new businesses can be tricky, but it can also be extremely rewardin
 
 ### Resources Utilized to Complete Analysis
 * **Data Sources:** 
-[hawaii.sqlite](https://github.com/cmmgw/Surfs_Up/blob/main/hawaii.sqlite)
+[hawaii.sqlite](https://github.com/RabidZippers/Surfs_Up/blob/main/hawaii.sqlite)
 
 * **Languages:** Python
 * **Applications:** SQLite, SQLAlchemy
