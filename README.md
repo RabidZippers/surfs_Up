@@ -6,8 +6,7 @@ Investing in new businesses can be tricky, but it can also be extremely rewardin
 
 ### Resources Utilized to Complete Analysis
 * **Data Sources:** 
-[hawaii.sqlite](https://github.com/RabidZippers/Surfs_Up/blob/main/hawaii.sqlite)
-
+[hawaii.sqlite](https://github.com/RabidZippers/surfs_Up/blob/main/hawaii.sqlite)
 * **Languages:** Python
 * **Applications:** SQLite, SQLAlchemy
 * **Tools:** Pandas, Jupyter Notebook
@@ -20,27 +19,26 @@ By utilizing Python, Pandas, and SQLAlchemy, a database was created in order to 
 ### Summary Statistics: June vs. December Temperature
 A total of 9 weather stations captured data. For the months of June and December, various statistics were captured pertaining to the temperature. 
 
-![June_Temperature](https://github.com/cmmgw/Surfs_Up/blob/main/Resources/June_Temperature.PNG)
+![June_Temperature](https://github.com/RabidZippers/surfs_Up/blob/main/Resources/June%20Temp.png)
 
-![December_Temperature](https://github.com/cmmgw/Surfs_Up/blob/main/Resources/December_Temperature.PNG)
+![December_Temperature](https://github.com/RabidZippers/surfs_Up/blob/main/Resources/December%20Temp.png)
 
-The results indicate key differences in weather between June and December. 
+The results indicate there are differences in weather between June and December. 
 * There are more data points capturing temperature in June versus December. 
 * The lowest temperature is marked with an 8-degree difference (June: 64F, December: 56F), but the high temperature is marked with a 2-degree difference (June: 85F, December: 83F). 
-* The average temperature in June is 74.9 and in December is 71.0, showing little variance.
+* The average temperature in June is 74.9 and in December is 71.0, showing little differences.
 
 ## Summary
 Given Oahu, Hawaii’s geographic location, it only has two seasons, summer and winter. 
 
-A histogram was created to plot the underlying frequency distribution of the various temperature observations, throughout the year, at the most active weather station. Temperatures ranging from 75F – 77F occurred the most often. The findings are consistent with the results from above.
+A histogram was created from the most active weather station to plot the underlying distribution of the various temperature observations, throughout the year. Temperatures ranging from 75F – 77F occurred the most often. The findings are consistent with the results from above.
 
-![Temperature_vs_Frequency](https://github.com/cmmgw/Surfs_Up/blob/main/Resources/Temperature_vs_Frequency.png)
+![Temperature_vs_Frequency](https://github.com/RabidZippers/surfs_Up/blob/main/Resources/Histo_Precip.png)
 
+In addition, further analysis was done on tropical storm patterns. A look at the precipitation patterns can be seen below. 
 
-Although there are evident temperature variations between the seasons, it would be helpful to further examine the data to evaluate how elevation and trade winds contribute to temperature fluctuations. In addition, further analysis can be done on tropical storm patterns. An initial look at precipitation patterns can be seen below. 
+![June_Precipitation](https://github.com/RabidZippers/surfs_Up/blob/main/Resources/June_Precip.png)
 
-![June_Precipitation](https://github.com/cmmgw/Surfs_Up/blob/main/Resources/June_Precipitation.PNG)
-
-![December_Precipitation](https://github.com/cmmgw/Surfs_Up/blob/main/Resources/December_Precipitation.PNG)
+![December_Precipitation](https://github.com/RabidZippers/surfs_Up/blob/main/Resources/December_Precip.png)
 
 This further analysis is necessary to determine whether “Waves and Ice Cream” should be open year-round.
